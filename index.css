@@ -36,7 +36,7 @@
 
 /* Main Styling for Webpage Below */
 body {
-    background-color: #E5E5E5 !important;
+    background-color: #E5E5E5;
 }
 
 .header {
@@ -80,7 +80,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     flex-grow: 1;
-    margin-left: 28rem;
+    margin-left: 35%;
     font-weight: bold;
 }
 
@@ -189,4 +189,8 @@ nav a:hover {
 
 footer {
     margin: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+    
 }
