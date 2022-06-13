@@ -95,7 +95,7 @@ nav a:hover {
 
 /* to compensate for bigger screens */
 .about {
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     padding: 0rem 1rem;
     margin: 0rem 1rem;
@@ -116,6 +116,7 @@ nav a:hover {
     width: 25rem;
     max-width: 100%;
     overflow: hidden;
+    margin-left: 7%;
 }
 
 .intro h3 {
@@ -151,8 +152,8 @@ nav a:hover {
 .portrait img {
     opacity: 1;
     transform: translate(0px, 0px);
-    height: 33rem;
-    width: 33rem;
+    height: 31rem;
+    width: 31rem;
 }
 
 .projects-container>* {
