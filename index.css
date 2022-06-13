@@ -44,6 +44,7 @@ body {
     position: fixed;
     top: 0%;
     left: 0%;
+    z-index: 1;
 }
 
 .menuBar {
@@ -72,6 +73,7 @@ body {
 }
 
 nav {
+    width: 45vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -94,7 +96,7 @@ nav a:hover {
     background-image: url(../pictures/background3.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 98vh;
+    height: 98vh;
 }
 
 .about-container {
@@ -102,7 +104,7 @@ nav a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 17% 0%;
+    padding: 14% 0%;
     position: relative;
 }
 
