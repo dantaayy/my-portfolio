@@ -88,7 +88,7 @@ nav a:hover {
     color: #FCA311;
 }
 
-/* to compensate for bigger screens */
+/* main section now */
 .about {
     width: 100%;
     background-image: url(../pictures/background3.jpg);
@@ -149,7 +149,7 @@ nav a:hover {
 }
 
 .projects-container>* {
-    margin: .5rem;
+    margin: 1%;
 }
 
 .projects-container {
@@ -197,7 +197,10 @@ footer {
 
     nav {
         margin: 0;
+    }
 
+    nav a {
+        font-size: 1rem;
     }
 
     .about-container {
