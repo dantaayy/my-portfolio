@@ -113,7 +113,11 @@ nav a:hover {
     width: 25rem;
     max-width: 100%;
     overflow: hidden;
-    margin-left: 7%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4% 0%;
 }
 
 .intro h3 {
@@ -125,10 +129,9 @@ nav a:hover {
 }
 
 .intro h2 {
-    font-family: SF Pro Display, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     margin-bottom: 1rem;
 }
 
@@ -149,8 +152,8 @@ nav a:hover {
 .portrait img {
     opacity: 1;
     transform: translate(0px, 0px);
-    height: 31rem;
-    width: 31rem;
+    height: 30rem;
+    width: 30rem;
 }
 
 .projects-container>* {
@@ -194,5 +197,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 }
