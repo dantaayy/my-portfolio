@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,800,&display=swap');
+
+/* Utility Classes for color pallete */
+.dark {
+    color: #212121;
+}
+
+.lighter-dark {
+    color: #262626
+}
+
+.navy {
+    color: #14213D;
+}
+
+.yellow-orange {
+    color: #FCA311;
+}
+
+.lightGrey {
+    color: #E5E5E5;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+/* Set default style for webpage */
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+/* Main Styling for Webpage Below */
+body {
+    background-color: #E5E5E5 !important;
+}
+
+.header {
+    min-height: 95vh;
+    width: 100%;
+    background-image: url(../pictures/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8rem;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: #14213D;
+    opacity: 1;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin: 0rem 9rem;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: .62rem;
+}
+
+nav {
+    width: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 28rem;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #FCA311;
+}
+
+/* to compensate for bigger screens */
+.about {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin: 0rem 1rem;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 7rem;
+    margin-top: 10%;
+    position: relative;
+}
+
+.intro {
+    height: 25rem;
+    width: 25rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.intro h3 {
+    font-family: SF Pro Display, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.intro h2 {
+    font-family: SF Pro Display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro h5 {
+    font-family: SF Pro Display, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #FCA311;
+}
+
+.portrait {
+    overflow: hidden;
+    opacity: 1;
+}
+
+/* Keep intrinsic value of image noneed to adjust */
+.portrait img {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    height: 33rem;
+    width: 33rem;
+}
+
+.projects-container>* {
+    margin: .5rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 65%;
+    align-items: space-around;
+    justify-content: space-around;
+    margin: 0rem 1rem;
+    background-color: #E5E5E5;
+}
+
+.projectDescription {
+    margin: 1rem;
+    width: 40%;
+    border-radius: .3rem;
+    box-shadow: 3px 3px 3px #212121;
+    background-color: #FFFFFF;
+}
+
+.projectDescription h3 {
+    color: #FCA311;
+}
+
+.projectDescription p {
+    color: #262626;
+}
+
+
+footer {
+    margin: 1rem;
+}
