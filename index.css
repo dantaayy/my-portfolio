@@ -56,7 +56,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: .5% 0rem;
-    background-color: #14213D;
+    background-color: #212121;
 }
 
 .menu-container {
@@ -96,7 +96,7 @@ nav a:hover {
 /* main section now */
 .about {
     width: 100%;
-    background-image: url(../pictures/background3.jpg);
+    background-image: url(../pictures/kazuo.jpg);
     background-position: center;
     background-size: cover;
     height: 98vh;
