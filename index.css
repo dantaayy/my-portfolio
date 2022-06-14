@@ -163,7 +163,7 @@ nav a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1% 10%;
+    margin: 0% 10%;
 }
 
 .about-me img {
@@ -193,21 +193,24 @@ nav a:hover {
     height: 50vh;
 }
 .skills {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    margin: 2% 10%;
+    margin: 0% 10%;
 }
 
 .skills h2 {
     color: #353535;
     text-align: center;
+    font-size: 2.5rem;
+    margin-top: 4%;
 }
 
 .bar-graph {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding: 3% 0%;
+    justify-content: center;
 }
 
 .bar-container {
@@ -219,13 +222,13 @@ nav a:hover {
 }
 
 .bar-container h5 {
-    width: 5%;
-    color: #3C6E71;
+    width: 8%;
+    color: #284B63;
 }
 
 .results-bar {
     margin: 1rem;
-    background-color: #284B63;
+    background-color: #3C6E71;
     padding: 0.3rem 0rem;
     text-align: center;
     border-radius: 0.2rem;
@@ -235,6 +238,7 @@ nav a:hover {
 [skill-lang=javascript] {width: 70%;}
 [skill-lang=java] {width: 45%;}
 [skill-lang=c] {width: 40%;}
+[skill-lang=github] {width: 55%;}
 [skill-lang=html] {width: 80%;}
 
 .projects-container {
