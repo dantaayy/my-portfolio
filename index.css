@@ -155,7 +155,6 @@ nav a:hover {
 }
 
 .about-me {
-    color: #FCA311;
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -168,6 +167,7 @@ nav a:hover {
 
 .about-me-description {
     width: 40%;
+    color: #FCA311;
 }
 
 .photo-description {
