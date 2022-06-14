@@ -100,6 +100,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 98vh;
+    background-repeat: no-repeat;
 }
 
 .about-container {
@@ -151,6 +152,12 @@ nav a:hover {
     width: 90%;
     max-width: 100%;
     overflow: hidden;
+}
+
+.about-me {
+    color: #262626;
+    display: flex;
+    height: 45vh;
 }
 
 .skills {
