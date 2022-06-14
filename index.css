@@ -34,7 +34,7 @@ html {
     font-family: 'Montserrat';
     padding: 0;
     margin: 0;
-    color: #FFFFFF;
+    color: #FCA311;
 }
 
 /* Main Styling for Webpage Below */
@@ -155,9 +155,26 @@ nav a:hover {
 }
 
 .about-me {
-    color: #262626;
+    color: #FCA311;
+    height: 50vh;
+    width: 100%;
     display: flex;
-    height: 45vh;
+    justify-content: space-between;
+    margin: 3% 5%;
+}
+
+.about-me-description {
+    width: 40%;
+}
+
+.photo-description {
+    width: 40%;
+}
+
+.about-me img {
+    height: 60%;
+    width: 60%;
+    padding: 5%;
 }
 
 .skills {
