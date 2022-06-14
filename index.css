@@ -277,6 +277,12 @@ footer li {
     color: #3C6E71;
 }
 
+footer img {
+    height: 30px;
+    width: 30px;
+    /* background-color: #FFFFFF; */
+}
+
 @media screen and (max-width: 950px) {
     .header {
         width: 100%;
