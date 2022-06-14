@@ -170,19 +170,17 @@ nav a:hover {
 .results-bar {
     margin: 1rem;
     width: 12.5%;
-    background-color: rgb(45, 136, 91);
-    padding-top: 0.5rem;
+    background-color: #FCA311;
+    padding: 0.3rem 0rem;
     text-align: center;
     border-radius: 0.2rem;
 }
 
-[skill-lang=python] {width: 75%;}
+[skill-lang=python] {width: 80%;}
 [skill-lang=javascript] {width: 70%;}
-[skill-lang=java] {width: 35%;}
-[skill-lang=c] {width: 30%;}
+[skill-lang=java] {width: 45%;}
+[skill-lang=c] {width: 35%;}
 [skill-lang=html] {width: 80%;}
-[skill-lang=css] {width: 65%;}
-
 
 .projects-container>* {
     margin: 1%;
