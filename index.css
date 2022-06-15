@@ -283,6 +283,22 @@ nav a:hover {
     color: #262626;
 }
 
+.contact-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me h3 
+{
+    color: #3C6E71;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 footer {
     background-color: #212121;
     width: 100%;
