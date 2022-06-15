@@ -310,9 +310,8 @@ footer img {
     }
 
     .menu-container {
-        display: flex;
         flex-direction: column;
-        width: 100%;
+        margin: 0% 5%;
     }
 
     .menu-container img {
@@ -334,6 +333,7 @@ footer img {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 10%
     }
 
     .intro {
