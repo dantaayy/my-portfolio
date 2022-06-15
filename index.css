@@ -109,8 +109,7 @@ nav a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10% 0%;
-    position: relative;
+    height: 98vh;
 }
 
 .intro {
@@ -326,8 +325,30 @@ footer img {
 
     .about-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 5%;
+    }
+
+    .intro {
+        padding-top: 5% 0%;
+        margin: 0%;
+    }
+
+    .intro h2 {
+        font-size: 3.8rem;
+    }
+
+    .intro h5 {
+        font-size: 1.2rem;
+    }
+
+    .portrait img {
+        height: 75%;
+        width: 75%;
+        max-width: 100%;
+        overflow: hidden;
     }
 }
