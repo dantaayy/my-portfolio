@@ -315,8 +315,13 @@ footer img {
         width: 100%;
     }
 
+    .menu-container img {
+        margin: 0;
+    }
+
     nav {
         margin: 0;
+        margin-top: 3%;
     }
 
     nav a {
@@ -333,8 +338,10 @@ footer img {
     }
 
     .intro {
-        padding-top: 5% 0%;
+        padding-top: 5%;
+        padding-bottom: 0%;
         margin: 0%;
+        height: 20rem;
     }
 
     .intro h2 {
