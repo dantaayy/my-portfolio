@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,700,800&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,100&family=Prompt:wght@300;400;500&display=swap');
 
 /* Utility Classes for color pallete */
 .dark {
@@ -203,8 +203,11 @@ nav a:hover {
 .skills h2 {
     color: #353535;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 4%;
+    text-transform: uppercase;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
 }
 
 .bar-graph {
@@ -223,12 +226,18 @@ nav a:hover {
 }
 
 .bar-container h5 {
-    width: 8%;
     color: #284B63;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+
+.bar-container h5:first-child {
+    width: 12%;
+    text-align: right;
 }
 
 .results-bar {
-    margin: 1rem;
+    margin: 2.5%;
     background-color: #3C6E71;
     padding: 0.3rem 0rem;
     text-align: center;
@@ -242,6 +251,11 @@ nav a:hover {
 [skill-lang=c] {width: 40%;}
 [skill-lang=github] {width: 55%;}
 [skill-lang=html] {width: 80%;}
+
+.percent {
+    width: 5%;
+    text-align: left;
+}
 
 .projects-container {
     display: flex;
