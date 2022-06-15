@@ -93,6 +93,20 @@ nav a:hover {
     color: #3C6E71;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0px;
+    transition: all 0.3s ease;
+    background-color: #FFFFFF;
+}
+
 /* main section now */
 .about {
     width: 100%;
@@ -368,8 +382,12 @@ footer img {
         width: 100%;
     }
 
+    .menuBar {
+        width: 100%;
+    }
+
     .menu-container {
-        flex-direction: column;
+        flex-direction: row;
         margin: 0% 5%;
     }
 
@@ -379,11 +397,25 @@ footer img {
 
     nav {
         margin: 0;
-        margin-top: 3%;
+        padding: 1.5% 0%;
     }
 
     nav a {
         font-size: 1rem;
+    }
+    /* Hamburger menu */
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .about-container {
