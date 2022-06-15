@@ -284,19 +284,25 @@ nav a:hover {
     color: #262626;
 }
 
-
 footer {
     background-color: #212121;
+    width: 100%;
 }
 
-footer li {
-    color: #3C6E71;
+.footerInfo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footerInfo li {
+    margin: 0% 2%;
+    list-style: none;
 }
 
 footer img {
-    height: 45px;
-    width: 45px;
-    /* background-color: #FFFFFF; */
+    height: 35px;
+    width: 35px;
 }
 
 @media screen and (max-width: 950px) {
