@@ -343,11 +343,13 @@ nav a:hover {
 .name-entry input, .email input {
     height: 100%;
     border-radius: .5rem;
+    padding-left: 2%;
 }
 
 .form textarea {
     height: 90px;
     border-radius: .5rem;
+    padding-left: 2%;
 }
 
 .form > * {
