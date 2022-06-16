@@ -162,7 +162,7 @@ nav a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0% 10%;
+    margin: 0% 8%;
 }
 
 .about-me img {
@@ -175,11 +175,16 @@ nav a:hover {
 
 .about-me-description {
     width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-me-description h2{
     color: #284B63;
     text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .about-me-description p {
@@ -188,8 +193,7 @@ nav a:hover {
 
 .skills-container {
     width: 100%;
-    background-color: #f7f7f7;
-    height: 60vh;
+    height: 50vh;
 }
 .skills {
     height: 100%;
@@ -260,23 +264,30 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 65%;
     align-items: space-around;
     justify-content: space-around;
-    margin-top: 5%;
+    background-color: #f7f7f7;
 }
 
 .projectDescription {
+    width: 18rem;
     margin: 1rem;
-    width: 40%;
-    border-radius: .3rem;
+    border-radius: .4rem;
     box-shadow: 3px 3px 3px #262626;
     background-color: #FFFFFF;
 }
 
+.projectDescription img {
+    max-width: calc(100% - 0.1rem);
+    display: block;
+    border-radius: .4rem;
+}
+
 .projectDescription h3 {
-    color: #3C6E71;
+    color: #FFFFFF;
     text-align: center;
+    background-color: #3C6E71;
+    border-radius: .4rem;
 }
 
 .projectDescription p {
@@ -286,7 +297,7 @@ nav a:hover {
 .contact-me {
     display: flex;
     justify-content: space-around;
-    margin: 2% 8%;
+    margin: 2% 5%;
     height: 25vh;
 }
 
@@ -302,6 +313,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: space-around;
     width: 50%;
+    padding-left: 20%;
 }
 
 .form input, .form textarea {
