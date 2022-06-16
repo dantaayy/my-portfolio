@@ -194,6 +194,7 @@ nav a:hover {
 .skills-container {
     width: 100%;
     height: 50vh;
+    background-color: #f7f7f7;
 }
 .skills {
     height: 100%;
@@ -203,7 +204,7 @@ nav a:hover {
     margin-bottom: 5%;
 }
 
-.skills h2 {
+.skills h2, .projects-container h2 {
     color: #353535;
     text-align: center;
     font-size: 2rem;
@@ -266,7 +267,6 @@ nav a:hover {
     flex-wrap: wrap;
     align-items: space-around;
     justify-content: space-around;
-    background-color: #f7f7f7;
 }
 
 .projectDescription {
@@ -296,8 +296,10 @@ nav a:hover {
 .contact-me {
     display: flex;
     justify-content: space-around;
-    margin: 2% 5%;
     /* height: 25vh; */
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 4% 0%;
 }
 
 .contact-me h3 
@@ -457,6 +459,10 @@ footer img {
         margin-bottom: 4%;
     }
 
+    .about-me-description h2 {
+        font-size: 1.7rem;
+    }
+
     .about-me-description h2, .about-me-description p {
         text-align: center;
     }
@@ -465,7 +471,7 @@ footer img {
         margin: 0% 2%;
     }
 
-    .skills h2 {
+    .skills h2, .projects-container h2 {
         font-size: 1.5rem;
     }
 
@@ -491,7 +497,7 @@ footer img {
     .form {
         padding: 0%;
     }
-    
+
     .form input, .form textarea {
         width: 100%;
     }
