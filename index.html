@@ -15,23 +15,19 @@
     <header class="header">
         <div class="menuBar">
             <div class="menu-container"> 
-                <img class="logo" src="pictures/D.png"></img>
+                <a href="index.html"><img class="logo" src="pictures/D.png"></img></a>
                 <nav class="nav" id="nav-menu">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
+                    <a href="#home">Home</a>
+                    <a href="#about-me">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="about">
+        <section class="about" id="home">
             <div class="about-container">
                 <div class="intro">
                     <div><h3>Hi👋 I'm</h3></div>
@@ -41,6 +37,17 @@
                 <div class="portrait">
                     <img src="../pictures/updated-mem.png" alt="portrait" >
                 </div>
+            </div>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <img src="../pictures/marcel-strauss.jpg"/>
+            <div class="about-me-description">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Accusamus ex facilis doloremque repellat debitis eos officiis quas voluptatem aliquid modi?
+                    Nostrum minus placeat praesentium quod perspiciatis, labore blanditiis atque quos.
+                </p>
             </div>
         </section>
 
@@ -82,7 +89,37 @@
             </div>    
         </section>
 
-        <section class="contact-me">
+        <section class="projects-container" id="portfolio">
+            <div class="projectDescription">
+                <img src="">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
+                </p>
+            </div>
+
+            <div class="projectDescription">
+                <img src="">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
+                </p>
+            </div>
+
+            <div class="projectDescription">
+                <img src="">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
+                </p>
+            </div>
+
+            <div class="projectDescription">
+                <img src="">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-me" id="contact">
             <h3>Let's get in touch!</h3>
             <form class="form">
                 <div class="name-entry">
