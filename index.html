@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="pictures/favicon.png">
     <title>DZ Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
@@ -14,18 +15,19 @@
     <header class="header">
         <div class="menuBar">
             <div class="menu-container"> 
-                <img class="logo" src="pictures/D.png"></img>
-                <nav class="nav">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
+                <a href="index.html"><img class="logo" src="pictures/D.png"></img></a>
+                <nav class="nav" id="nav-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about-me">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="about">
+        <section class="about" id="home">
             <div class="about-container">
                 <div class="intro">
                     <div><h3>Hi👋 I'm</h3></div>
@@ -38,13 +40,18 @@
             </div>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <img src="../pictures/marcel-strauss.jpg"/>
             <div class="about-me-description">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Accusamus ex facilis doloremque repellat debitis eos officiis quas voluptatem aliquid modi?
-                    Nostrum minus placeat praesentium quod perspiciatis, labore blanditiis atque quos.
+                <p>
+                    From deafeating cancer my Junior year of High School to graduating
+                    from the University of Arizona with a Bachelors of Science in Applied Computing.<br><br>
+                    I am committed to making the world a better place using technology in a secure and 
+                    easy way. <br><br>
+                    I want to be the bridge for my community to get into the world of tech with out 
+                    feeling the pressure of not having the resources available to them. <br><br>
+                    I will be that resource for them!
                 </p>
             </div>
         </section>
@@ -87,42 +94,64 @@
             </div>    
         </section>
 
-        <section class="projects-container">
+        <section class="projects-container" id="portfolio">
+            <h2>Projects</h2>
             <div class="projectDescription">
-                <img src="">
-                <h3>Project</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
-                </p>
+                <a href="" class="project-link">
+                    <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80">
+                </a>
+                <h3>Resume</h3>
             </div>
 
             <div class="projectDescription">
-                <img src="">
-                <h3>Project</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
-                </p>
+                <a href="" class="project-link">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                </a>
+                <h3>Password Generator</h3>
             </div>
 
             <div class="projectDescription">
-                <img src="">
-                <h3>Project</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
-                </p>
+                <a href="" class="project-link">
+                    <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                </a>
+                <h3>Coming soon</h3>
             </div>
 
             <div class="projectDescription">
-                <img src="">
-                <h3>Project</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse odit molestias vero consectetur sint explicabo iste. Ut esse provident magni? Nostrum, quisquam! Ea, animi quo! Assumenda enim at fugiat!
-                </p>
+                <a href="" class="project-link">
+                    <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                </a>
+                <h3>Coming soon</h3>
             </div>
+        </section>
+
+        <section class="contact-me" id="contact">
+            <h3>Let's get in touch!</h3>
+            <form class="form">
+                <div class="name-entry">
+                    <input type="text" id="name" name="firstname" placeholder="Name">
+                </div>
+
+                <div class="email">
+                    <input type="text" id="lname" name="lastname" placeholder="Email address">
+                </div>
+
+                <div class="message-container">
+                    <textarea id="subject" name="subject" placeholder="Message"></textarea>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </section>
     </main>
     
     <footer class="footerContainer">
         <ul class="footerInfo">
-            <li><a href="https://www.linkedin.com/in/dante-zelaya-618659187/"><img src="../pictures/linkedin-logo.png"/></a></li> 
-            <li><a href="https://github.com/dantaayy"><img src="../pictures/Github-Logo-White.png"/></a></li>
-            <li><a href="https://www.instagram.com/dantaayy_/"><img src="../pictures/instagram-logo.png"/></a></li>
+            <li><a href="https://www.linkedin.com/in/dante-zelaya-618659187/" target="_blank"><img src="../pictures/linkedin-logo.png"/></a></li> 
+            <li><a href="https://github.com/dantaayy" target="_blank"><img src="../pictures/Github-Logo-White.png"/></a></li>
+            <li><a href="https://www.instagram.com/dantaayy_/" target="_blank"><img src="../pictures/instagram-logo.png"/></a></li>
         </ul>
     </footer>
 
