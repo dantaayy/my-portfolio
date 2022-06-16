@@ -274,24 +274,23 @@ nav a:hover {
     margin: 1rem;
     border-radius: .4rem;
     box-shadow: 3px 3px 3px #262626;
-    background-color: #FFFFFF;
 }
 
 .projectDescription img {
-    max-width: calc(100% - 0.1rem);
+    max-width: 100%;
     display: block;
-    border-radius: .4rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
 
 .projectDescription h3 {
+    max-width: 100%;
     color: #FFFFFF;
     text-align: center;
     background-color: #3C6E71;
-    border-radius: .4rem;
-}
-
-.projectDescription p {
-    color: #262626;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    height: 12%;
 }
 
 .contact-me {
